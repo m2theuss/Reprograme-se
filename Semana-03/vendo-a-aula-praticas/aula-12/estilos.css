@@ -1,0 +1,43 @@
+body {
+    /*background-color: hsl(0, 6%, 51%);
+    background-image: url(img/fundo-branco-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+    a versao a baixo é uma versao simplificada e mais compacta do código de cima. (apenas a primeira, que é "background"
+*/
+    background: gray url(img/fundo-branco-1024x1024.jpg) repeat fixed;
+    background-size: 50px;
+}
+
+p {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    /*border-color: black chartreuse red blueviolet;
+    border-style: solid dotted dashed solid;
+    border-width: 10px 20px 5px 15px;*/
+
+    border: 4px solid black;
+    border-style: dotted solid;
+    /* border-top-left-radius: 10px; só pra lembrar q é assim q se faz */
+    border-radius: 10px;
+}
+
+#p1 {
+    margin: 20px auto; /*ISSO AQ É LEGAL, O AUTO COLOCA UM VALOR AUTOMÁTICO NAS LATERAIS DO MARGIN, FAZENDO ELE FICAR SEMPRE CENTRALIZADO NO MEIO DA TELA; */
+    padding: 50px;
+
+    width: 200px;
+    height: 250px; 
+
+    /* outline-style: solid;
+    outline-color: black;
+    outline-width: 3px;
+
+    abaixo em outline esta uma versao compacta do código de cima, apenas no outline*/
+
+    outline: 3px solid black;
+    outline-offset: 3px; 
+    /* essa borda fica por fora do elemento */
+}

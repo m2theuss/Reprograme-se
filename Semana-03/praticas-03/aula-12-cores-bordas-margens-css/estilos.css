@@ -1,0 +1,40 @@
+ :root {
+    /* CSS HEX */
+    --aquamarine: #85ffc7ff;
+    --myrtle-green: #297373ff;
+    --coral: #ff8552ff;
+    --platinum: rgb(0, 0, 0);
+    --jet: #39393aff;
+ }
+
+ body {
+    background-color: var(--aquamarine);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(img/asfalt-dark.png);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--platinum);
+
+}
+
+p {
+    color: var(--jet);
+    text-decoration: none;
+}
+
+a {
+    color: var(--myrtle-green);
+}
+
+header, footer {
+    background-color: var(--ocean-green);
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+}
