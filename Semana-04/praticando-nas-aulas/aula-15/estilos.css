@@ -1,0 +1,35 @@
+header {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    display: block;
+    width: 800px;
+}
+main {
+    padding: 0px;
+}
+
+.lorem1 {
+    display: inline-block;
+    width: 16vw;
+    height: 180px;
+    border-right: 1px solid gray;
+    padding: 20px;
+}
+
+.lorem2 {
+    display: inline-block;
+    width: 16vw;
+    height: 180px;
+    padding: 20px;
+    border-right: 1px solid gray;
+}
+.lorem3 {
+    
+    display: inline-block;
+    width: 16vw;
+    height: 180px;
+    padding: 20px;
+    
+    
+}
+    
